@@ -3,8 +3,6 @@ import Image from 'next/image';
 import Head from "next/head"
 import {
     FacebookShareButton,
-    TwitterShareButton,
-    LinkedinShareButton,
 } from 'next-share'
 const elbou = () => {
     return ( <
@@ -17,7 +15,7 @@ const elbou = () => {
         content = "Description of ShowTraining" / >
         <
         meta property = "og:title"
-        content = { "alelboua" }
+        content = { "elbou72" }
         /> <
         meta name = "viewport"
         content = "width=device-width, initial-scale=1" / >
