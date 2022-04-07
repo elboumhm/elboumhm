@@ -58,10 +58,14 @@ const elbou = () => {
 
         <
         /Head> <
-        div >
+        div style = {
+            { position: "relative", width: "400px", height: "400px" } } >
         <
-        FacebookShareButton url = { "https://www.orangedigitalcenters.com/" }
-        quote = { "elbou mhm" }
+        Image / >
+        <
+        /div> <
+        FacebookShareButton url = { "https://elboumhm-7krgd2m8m-elboumhm.vercel.app/elbou" }
+        quote = { "ala" }
         //hashtag="#camperstribe"
         //`className={classes.socialMediaButton}
         >
@@ -86,8 +90,7 @@ const elbou = () => {
         /FacebookShareButton> <
         /div>
 
-        <
-        /div>
+
     )
 }
 
