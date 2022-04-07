@@ -41,13 +41,13 @@ const elbou = () => {
         /> <
         meta key = "facebook:title"
         property = "facebook:title"
-        content = { "codding Schools" }
+        content = { "elbouuu" }
         />
 
         <
         meta key = "facebook:description "
         property = "facebook:description"
-        content = "maniiie" /
+        content = "seo ...." /
         >
         <
         meta key = "facebook:image"
@@ -65,7 +65,6 @@ const elbou = () => {
         <
         /div> <
         FacebookShareButton url = { "https://elboumhm-7krgd2m8m-elboumhm.vercel.app/elbou" }
-        quote = { "ala" }
         //hashtag="#camperstribe"
         //`className={classes.socialMediaButton}
         >
