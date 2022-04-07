@@ -17,7 +17,7 @@ const elbou = () => {
         content = "Description of ShowTraining" / >
         <
         meta property = "og:title"
-        content = { "ala" }
+        content = { "alelboua" }
         /> <
         meta name = "viewport"
         content = "width=device-width, initial-scale=1" / >
@@ -27,7 +27,7 @@ const elbou = () => {
         <
         title > elbou < /title> <
         meta property = "og:description"
-        content = { "hqkjdbkjwehbdkjewbdjvjedhgvhewgvdbefh" }
+        content = { "seo....." }
         />     <
         meta property = "og:image"
         content = { "http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" }
@@ -59,7 +59,8 @@ const elbou = () => {
         <
         /Head> <
         div style = {
-            { position: "relative", width: "400px", height: "400px" } } >
+            { position: "relative", width: "400px", height: "400px" }
+        } >
         <
         Image / >
         <
@@ -85,8 +86,8 @@ const elbou = () => {
         transform = "translate(13.962 9.34)" /
         >
         <
-        /svg>              <
-        /FacebookShareButton> <
+        /svg>              < /
+        FacebookShareButton > <
         /div>
 
 
