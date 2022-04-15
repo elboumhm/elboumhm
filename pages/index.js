@@ -3,6 +3,14 @@ import Image from 'next/image'
 import Head from 'next/head'
 import { FacebookShareButton } from 'next-share'
 const elbou = () => {
+    const Color = () => {
+        return ( <
+            div style = {
+                { backgroundColor: "red" } } >
+            hello <
+            /div>
+        )
+    }
     return ( <
         div >
         <
@@ -21,11 +29,14 @@ const elbou = () => {
         <
         title > elbou < /title>{' '} <
         meta property = 'og:description'
-        content = { 'seo.....' }
+        content = { 'seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....' }
         />{' '} <
         meta property = 'og:image'
         content = {
-            'http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg'
+            () => {
+                return <div style = {
+                    { backgroundColor: "red" } } > hello < /div>
+            }
         }
         />{' '} <
         meta property = 'og:url'
@@ -38,10 +49,10 @@ const elbou = () => {
         meta key = 'facebook:title'
         property = 'facebook:title'
         content = { 'elbouuu' }
-        /> <
+        />{' '} <
         meta key = 'facebook:description '
         property = 'facebook:description'
-        content = 'seo ....' /
+        content = 'seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....' /
         >
         <
         meta key = 'facebook:image'
@@ -49,7 +60,7 @@ const elbou = () => {
         content = {
             'http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg'
         }
-        /> <
+        />{' '} <
         /Head>{' '} <
         FacebookShareButton url = { 'https://elboumhm-7krgd2m8m-elboumhm.vercel.app/elbou' }
         //hashtag="#camperstribe"
