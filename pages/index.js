@@ -4,64 +4,12 @@ import Head from 'next/head'
 import { FacebookShareButton } from 'next-share'
 const elbou = () => {
     const Color = () => {
-        return ( <
-            div style = {
-                { backgroundColor: "red" } } >
-            hello <
-            /div>
-        )
+        return <div style = {
+            { backgroundColor: 'red' } } > hello < /div>
     }
     return ( <
         div >
         <
-        Head >
-        <
-        meta name = 'description'
-        content = 'Description of ShowTraining' / >
-        <
-        meta property = 'og:title'
-        content = { 'elbou72' }
-        />{' '} <
-        meta name = 'viewport'
-        content = 'width=device-width, initial-scale=1' / >
-        <
-        meta charSet = 'utf-8' / >
-        <
-        title > elbou < /title>{' '} <
-        meta property = 'og:description'
-        content = { 'seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....seo.....' }
-        />{' '} <
-        meta property = 'og:image'
-        content = {
-            () => {
-                return <div style = {
-                    { backgroundColor: "red" } } > hello < /div>
-            }
-        }
-        />{' '} <
-        meta property = 'og:url'
-        content = { 'https://www.orangedigitalcenters.com/programs' }
-        />{' '} <
-        meta key = 'twitter:title'
-        property = 'twitter:title'
-        content = { 'fablabs' }
-        />{' '} <
-        meta key = 'facebook:title'
-        property = 'facebook:title'
-        content = { 'elbouuu' }
-        />{' '} <
-        meta key = 'facebook:description '
-        property = 'facebook:description'
-        content = 'seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....seo ....' /
-        >
-        <
-        meta key = 'facebook:image'
-        property = 'facebook:image'
-        content = {
-            'http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg'
-        }
-        />{' '} <
-        /Head>{' '} <
         FacebookShareButton url = { 'https://elboumhm-7krgd2m8m-elboumhm.vercel.app/elbou' }
         //hashtag="#camperstribe"
         //`className={classes.socialMediaButton}
